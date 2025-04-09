@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherPlanner</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Weather Form Section -->
+    <form id="weatherForm">
+      <h2 id="appTitle">WeatherPlanner 🌤️</h2>
+      
+      <div class="form-group">
+        <label for="countrySelect">Select Country 🌍</label>
+        <select id="countrySelect"></select>
+      </div>
+
+      <div class="form-group">
+        <label for="citySelect">Select City 🌆</label>
+        <select id="citySelect"></select>
+      </div>
+
+      <div class="form-group">
+        <button type="button" id="geolocationBtn">Geolocation Weather 📍</button>
+        <button type="button" id="weatherBtn">Get Weather 🌦️</button>
+      </div>
+
+      <div id="weatherResults">
+        <!-- Weather results will show here -->
+      </div>
+
+      <div id="recommendations"></div>
+    </form>
+
+    <!-- Task Planner Section -->
+    <form id="taskPlanner">
+      <h2 id="plannerTitle">📆 Planner</h2>
+
+      <div class="form-group">
+        <label for="planDate">Select Date 📅</label>
+        <input type="date" id="planDate" required>
+      </div>
+
+      <div class="form-group">
+        <label for="planText">Task Description 📝</label>
+        <textarea id="planText" placeholder="Describe your task..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="taskCategory">Category 📂</label>
+        <select id="taskCategory">
+          <option value="Work">Work 💼</option>
+          <option value="Personal">Personal 🧑‍💻</option>
+          <option value="Leisure">Leisure 🛋️</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <button type="button" id="addTaskBtn">Add Task ✨</button>
+      </div>
+
+      <div class="form-group">
+        <label for="categoryFilter">Filter by Category 🔎</label>
+        <select id="categoryFilter" onchange="filterTasks()">
+          <option value="">All 📋</option>
+          <option value="Work">Work 💼</option>
+          <option value="Personal">Personal 🧑‍💻</option>
+          <option value="Leisure">Leisure 🛋️</option>
+        </select>
+      </div>
+
+      <div id="planList">
+        <!-- Tasks will appear here -->
+      </div>
+    </form>
+  </div>
+
+  <script src="/JS/script.js"></script>
+  
+  <script>
+ 
+  </script>
+
+</body>
+</html>

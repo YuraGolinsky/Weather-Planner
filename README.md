@@ -25,14 +25,33 @@ It dynamically updates available cities based on the selected country, provides 
 **Weather Data** 🌦️:
 - 🌆 **City**: Rome, Italy
 - 🌞 **Weather**: Clear Sky
-- 🌡️ **Temperature**: 20°C
-- 🌿 **Recommendation**: Perfect day for outdoor activities! 🏞️
+- 🌡️ **Temperature**: 2°C
+- 🌿 **Recommendation**:💡 It's quite cold outside! A warm drink and a blanket might be a good idea. 🧣☕
+
+
+![image](https://github.com/user-attachments/assets/4d4c61fe-c1d5-4c22-8a90-375129fd9185)
+
+
+
+
+
+
 
 **Task Data** 📅:
-- 📅 **Date**: 2025-04-08
+- 📅 **Date**: 2025-04-10
 - 📝 **Task**: Finish reading a book
 - 📌 **Category**: Leisure
 - ➕ **Action**: Add task to planner
+![image](https://github.com/user-attachments/assets/f9c213ec-ff87-4166-b167-15f162c212e5)
+
+![image](https://github.com/user-attachments/assets/e07a767c-5926-4476-b943-1126637bd003)
+
+
+---
+Filter by Category 🔎
+
+![image](https://github.com/user-attachments/assets/da36ea64-87f7-4e6b-bdf2-51e2299060a2)
+
 
 ---
 

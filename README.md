@@ -42,6 +42,7 @@ It dynamically updates available cities based on the selected country, provides 
 - 📝 **Task**: Finish reading a book
 - 📌 **Category**: Leisure
 - ➕ **Action**: Add task to planner
+  
 ![image](https://github.com/user-attachments/assets/f9c213ec-ff87-4166-b167-15f162c212e5)
 
 ![image](https://github.com/user-attachments/assets/e07a767c-5926-4476-b943-1126637bd003)
